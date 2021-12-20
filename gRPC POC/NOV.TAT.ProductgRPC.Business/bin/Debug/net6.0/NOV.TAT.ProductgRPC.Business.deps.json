@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "NOV.TAT.ProductgRPC.Business/1.0.0": {
+        "runtime": {
+          "NOV.TAT.ProductgRPC.Business.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NOV.TAT.ProductgRPC.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

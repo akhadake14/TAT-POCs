@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "ProductGRPCService";
+
+package ProductService.Models;
+
+message ProductModel{
+	int32 id=1;
+	string name=2;
+	string description=3;
+	float unitPrice=4;
+}
+

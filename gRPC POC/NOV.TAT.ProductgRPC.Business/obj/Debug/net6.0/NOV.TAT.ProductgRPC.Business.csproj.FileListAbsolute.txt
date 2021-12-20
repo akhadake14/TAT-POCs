@@ -1,0 +1,12 @@
+C:\Personal Drive\Code\TAT-Project Practice\GRPC_POC\NOV.TAT.ProductgRPC.Business\bin\Debug\net6.0\NOV.TAT.ProductgRPC.Business.deps.json
+C:\Personal Drive\Code\TAT-Project Practice\GRPC_POC\NOV.TAT.ProductgRPC.Business\bin\Debug\net6.0\NOV.TAT.ProductgRPC.Business.dll
+C:\Personal Drive\Code\TAT-Project Practice\GRPC_POC\NOV.TAT.ProductgRPC.Business\bin\Debug\net6.0\ref\NOV.TAT.ProductgRPC.Business.dll
+C:\Personal Drive\Code\TAT-Project Practice\GRPC_POC\NOV.TAT.ProductgRPC.Business\bin\Debug\net6.0\NOV.TAT.ProductgRPC.Business.pdb
+C:\Personal Drive\Code\TAT-Project Practice\GRPC_POC\NOV.TAT.ProductgRPC.Business\obj\Debug\net6.0\NOV.TAT.ProductgRPC.Business.csproj.AssemblyReference.cache
+C:\Personal Drive\Code\TAT-Project Practice\GRPC_POC\NOV.TAT.ProductgRPC.Business\obj\Debug\net6.0\NOV.TAT.ProductgRPC.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Personal Drive\Code\TAT-Project Practice\GRPC_POC\NOV.TAT.ProductgRPC.Business\obj\Debug\net6.0\NOV.TAT.ProductgRPC.Business.AssemblyInfoInputs.cache
+C:\Personal Drive\Code\TAT-Project Practice\GRPC_POC\NOV.TAT.ProductgRPC.Business\obj\Debug\net6.0\NOV.TAT.ProductgRPC.Business.AssemblyInfo.cs
+C:\Personal Drive\Code\TAT-Project Practice\GRPC_POC\NOV.TAT.ProductgRPC.Business\obj\Debug\net6.0\NOV.TAT.ProductgRPC.Business.csproj.CoreCompileInputs.cache
+C:\Personal Drive\Code\TAT-Project Practice\GRPC_POC\NOV.TAT.ProductgRPC.Business\obj\Debug\net6.0\NOV.TAT.ProductgRPC.Business.dll
+C:\Personal Drive\Code\TAT-Project Practice\GRPC_POC\NOV.TAT.ProductgRPC.Business\obj\Debug\net6.0\ref\NOV.TAT.ProductgRPC.Business.dll
+C:\Personal Drive\Code\TAT-Project Practice\GRPC_POC\NOV.TAT.ProductgRPC.Business\obj\Debug\net6.0\NOV.TAT.ProductgRPC.Business.pdb

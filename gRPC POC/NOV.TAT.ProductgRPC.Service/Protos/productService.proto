@@ -1,0 +1,51 @@
+syntax = "proto3";
+package ProductService;
+//import "Protos/Models/product.proto";
+option csharp_namespace = "ProductGRPCService";
+
+message ProductModel{
+	int32 id=1;
+	string name=2;
+	string description=3;
+	float unitPrice=4;
+}
+
+message Error{
+	int32 code=1;
+	string error =2;
+	string message=3;
+	string detail=4;
+	int32 traceId=5;
+	string help=6;
+}
+message ProductRequest {
+	ProductModel Product=3;
+} 
+
+message ProductResponse{
+	string status=1;
+	int32 statusCode=2;
+	string description=3;
+	ProductModel product=4;
+	repeated ProductModel products=5;
+	Error error=6;
+}
+enum ResponseStatusCode {
+	CREATED = 0;
+	UPDATED = 1;
+	DELETED=2;
+	OK=200;
+	BADREQUEST=4;
+	UNAUTHORIZED=5;
+	ACCEPTED=6;
+	INTERNAL_SERVER_ERROR=7;
+}
+
+
+service ProductGrpc{
+rpc Get (ProductRequest) returns (ProductResponse);
+rpc GetProduts (ProductRequest) returns (ProductResponse);
+rpc AddProduct (ProductRequest) returns (ProductResponse);
+rpc UpdateProduct (ProductRequest) returns (ProductResponse);
+rpc DeleteProduct (ProductRequest) returns (ProductResponse);
+}
