@@ -47,7 +47,7 @@ namespace NOV.TAT.ProductgRPC.Data
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            context.Dispose();
         }
     }
 }
