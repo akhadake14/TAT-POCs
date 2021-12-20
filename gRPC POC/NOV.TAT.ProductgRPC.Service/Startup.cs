@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
+using NOV.TAT.ProductgRPC.Business.Models;
 using NOV.TAT.ProductgRPC.Data;
 using NOV.TAT.ProductgRPC.Data.Context;
-using NOV.TAT.ProductgRPC.Data.Models;
-using System.Configuration;
+
 
 namespace NOV.TAT.ProductgRPC.Service
 {

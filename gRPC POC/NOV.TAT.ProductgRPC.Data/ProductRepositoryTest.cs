@@ -1,4 +1,5 @@
-﻿using NOV.TAT.ProductgRPC.Data.Models;
+﻿
+using NOV.TAT.ProductgRPC.Business.Models;
 
 namespace NOV.TAT.ProductgRPC.Data
 {

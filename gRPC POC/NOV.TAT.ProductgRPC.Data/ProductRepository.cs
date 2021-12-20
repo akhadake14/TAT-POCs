@@ -1,5 +1,5 @@
-﻿using NOV.TAT.ProductgRPC.Data.Context;
-using NOV.TAT.ProductgRPC.Data.Models;
+﻿using NOV.TAT.ProductgRPC.Business.Models;
+using NOV.TAT.ProductgRPC.Data.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
 using Grpc.Core;
+using NOV.TAT.ProductgRPC.Business.Models;
 using NOV.TAT.ProductgRPC.Data;
 using NOV.TAT.ProductgRPC.Data.Context;
-using NOV.TAT.ProductgRPC.Data.Models;
 using ProductGRPCService;
 namespace NOV.TAT.ProductgRPC.Service.Services
 {

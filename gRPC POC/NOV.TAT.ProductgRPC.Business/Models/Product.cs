@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NOV.TAT.ProductgRPC.Data.Models
+namespace NOV.TAT.ProductgRPC.Business.Models
 {
     public class Product
     {

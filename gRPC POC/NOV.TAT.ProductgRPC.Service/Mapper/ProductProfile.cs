@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using NOV.TAT.ProductgRPC.Data.Models;
+using NOV.TAT.ProductgRPC.Business.Models;
 using ProductGRPCService;
 
 namespace NOV.TAT.ProductgRPC.Service.Mapper
