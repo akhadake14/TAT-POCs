@@ -9,12 +9,12 @@ namespace NOV.TAT.ProductgRPC.Service.Services
     public class ProductService : ProductGrpc.ProductGrpcBase
     {
         private readonly ILogger<ProductService> _logger;
-        private readonly GenericRepository<Product,ProductContext> _productRepository;
+        private readonly ProductRepository _productRepository;
         private readonly IMapper _mapper; //Automapper
 
 
 
-        public ProductService(GenericRepository<Product, ProductContext> productRepository, IMapper mapper, ILogger<ProductService> logger)
+        public ProductService(ProductRepository productRepository, IMapper mapper, ILogger<ProductService> logger)
         {
             _productRepository = productRepository;
             _mapper = mapper;

@@ -12,35 +12,35 @@ namespace NOV.TAT.ProductgRPC.Data
         where C : DbContext
     {
         private T entity;
-        private C context;
+        public C context;
 
         public GenericRepository(C _context)
         {
             context = _context;
         }
-        public T? GetById(int id)
+        public virtual T? GetById(int id)
         {
             return context.Set<T>().Find(id);
         }
-        public IEnumerable<T> GetAll()
+        public virtual IEnumerable<T> GetAll()
         {
-            return context.Set<T>().ToList();
+            return context.Set<T>().AsQueryable();
         }
-        public void Insert(T entity)
+        public virtual void Insert(T entity)
         {
             context.Set<T>().Add(entity);
         }
-        public void Delete(int id)
+        public virtual void Delete(int id)
         {
             T entity = context.Set<T>().Find(id);
             if(entity != null)
                 context.Set<T>().Remove(entity);
         }
-        public void Update(T entity)
+        public virtual void Update(T entity)
         {
             context.Entry(entity).State = EntityState.Modified;
         }
-        public void Save()
+        public virtual void Save()
         {
             context.SaveChanges();
         }

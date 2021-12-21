@@ -59,7 +59,7 @@ namespace NOV.TAT.ProductgRPC.Data
         }
         public IEnumerable<Product> GetAll()
         {
-            return _products;
+            return _products.AsQueryable();
         }
         public void Insert(Product product)
         {

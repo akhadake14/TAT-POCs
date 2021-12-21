@@ -8,10 +8,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Grpc.Core.Testing" Version="2.42.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.1" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+    <PackageReference Include="Moq" Version="4.16.1" />
     <PackageReference Include="MSTest.TestAdapter" Version="2.2.7" />
     <PackageReference Include="MSTest.TestFramework" Version="2.2.7" />
     <PackageReference Include="coverlet.collector" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NOV.TAT.ProductgRPC.Business\NOV.TAT.ProductgRPC.Business.csproj" />
+    <ProjectReference Include="..\NOV.TAT.ProductgRPC.Data\NOV.TAT.ProductgRPC.Data.csproj" />
+    <ProjectReference Include="..\NOV.TAT.ProductgRPC.Service\NOV.TAT.ProductgRPC.Service.csproj" />
   </ItemGroup>
 
 </Project>

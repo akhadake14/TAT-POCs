@@ -13,6 +13,10 @@ namespace NOV.TAT.ProductgRPC.Data.Context
         public ProductContext(DbContextOptions<ProductContext> options) : base(options)
         {
         }
-        public DbSet<Product> Products { get; set; }
+        public ProductContext()
+        {
+
+        }
+        public virtual DbSet<Product> Products { get; set; }
     }
 }

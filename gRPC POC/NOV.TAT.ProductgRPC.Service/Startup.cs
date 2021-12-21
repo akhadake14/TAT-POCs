@@ -13,7 +13,7 @@ namespace NOV.TAT.ProductgRPC.Service
         {
             services.AddGrpc();
             services.AddAutoMapper(typeof(Startup)); //AutoMapper.Extensions.Microsoft.DependencyInjection
-            services.AddScoped<GenericRepository<Product, ProductContext>, ProductRepository>();
+            services.AddScoped<ProductRepository, ProductRepository>();
             services.AddDbContext<ProductContext>(options =>
                 options.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ProductDB;Integrated Security=True;Pooling=False",
                     b => b.MigrationsAssembly(typeof(ProductContext).Assembly.FullName)));

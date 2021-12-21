@@ -55,32 +55,32 @@ Console.WriteLine("Get Call : " + await client.GetAsync(new ProductRequest()
 Console.WriteLine("-----------------------------------------------------------------------------------");
 
 
-//var updateReplay = await client.UpdateProductAsync(new ProductRequest()
-//{
-//    Product = new ProductModel()
-//    {
-//        Id = 5,
-//        Name = "Product6",
-//        Description = " Description6",
-//        UnitPrice = 20.24f
-//    }
-//});
-//Console.WriteLine($"Update Call : {updateReplay}");
-//Console.WriteLine("-----------------------------------------------------------------------------------");
+var updateReplay = await client.UpdateProductAsync(new ProductRequest()
+{
+    Product = new ProductModel()
+    {
+        Id = 4,
+        Name = "Product6",
+        Description = " Description6",
+        UnitPrice = 20.24f
+    }
+});
+Console.WriteLine($"Update Call : {updateReplay}");
+Console.WriteLine("-----------------------------------------------------------------------------------");
 
 
 
-//Console.WriteLine("Delete Call : " + await client.DeleteProductAsync(new ProductRequest()
-//{
-//    Product = new ProductModel()
-//    {
-//        Id = 6,
-//        Name = "Product6",
-//        Description = " Description6",
-//        UnitPrice = 20.24f
-//    }
-//}));
-//Console.WriteLine("-----------------------------------------------------------------------------------");
+Console.WriteLine("Delete Call : " + await client.DeleteProductAsync(new ProductRequest()
+{
+    Product = new ProductModel()
+    {
+        Id = 7,
+        Name = "Product6",
+        Description = " Description6",
+        UnitPrice = 20.24f
+    }
+}));
+Console.WriteLine("-----------------------------------------------------------------------------------");
 
 
 Console.WriteLine("Press any key to exit...");
