@@ -18,8 +18,8 @@ jobs:
       with:
         dotnet-version: 5.0.x
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore "./gRPC POC/NOV.TAT.ProductgRPC.Service/NOV.TAT.ProductgRPC.Service.csproj"
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build "./gRPC POC/NOV.TAT.ProductgRPC.Service/NOV.TAT.ProductgRPC.Service.csproj" --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
